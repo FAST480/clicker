@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Game</title>
+	<link rel="stylesheet" href="assets/css/main.css">
+	<script src="assets/js/main.js" defer></script>
+</head>
+<body>
+
+	<div class="wrapper">
+		
+		<div class="game">
+			<div class="game__head">
+				<div class="game__head__points">Points: <span>0</span></div>
+			</div>
+			<div class="game__main">
+				<div class="game__button">
+					Click
+				</div>
+			</div>
+			<div class="game__boost">
+				<div class="game__viewArea">
+					Boosts
+				</div>
+				<div class="game__boost__item">
+					<div class="game__boost__item--title" data-boostid="dblclick">Двойной клик. Куплено: <span>0</span></div>
+					<div class="game__boost__item--desc" data-boostid="dblclick">Увеличивает доход с нажатия на 1 очко. Цена: <span>10</span> очков</div>
+					<div class="game__boost__item--buy" data-boostid="dblclick">Купить</div>
+				</div>
+				<div class="game__boost__item">
+					<div class="game__boost__item--title" data-boostid="autoclick">Автоклик. Куплено: <span>0</span></div>
+					<div class="game__boost__item--desc" data-boostid="autoclick">Автоматический клик(каждые 5 секунд). Цена: <span>100</span> очков</div>
+					<div class="game__boost__item--buy" data-boostid="autoclick">Купить</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	
+</body>
+</html>
